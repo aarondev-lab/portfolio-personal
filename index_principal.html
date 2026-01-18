@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aaron Garcia Sanchez | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navegación -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"><span>A</span>aron.</a>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Sobre mí</a></li>
+                <li><a href="#skills" class="nav-link">Habilidades</a></li>
+                <li><a href="#projects" class="nav-link">Proyectos</a></li>
+                <li><a href="#contact" class="nav-link">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Sección Hero / Inicio -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Hola, soy <span class="highlight">Aaron Garcia</span></h1>
+                <h2 class="hero-subtitle">Estudiante en Programación & <span class="cyber-text">Ciberseguridad</span>
+                </h2>
+                <p class="hero-description">
+                    Apasionado por el desarrollo web y la seguridad informática.
+                    Actualmente cursando un máster de especialización en Ciberseguridad,
+                    ampliando mis conocimientos en bastionado y protección de sistemas.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Ver proyectos</a>
+                    <a href="#contact" class="btn btn-secondary">Contactar</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="code-container">
+                    <div class="code-header">
+                        <span class="red"></span>
+                        <span class="yellow"></span>
+                        <span class="green"></span>
+                    </div>
+                    <pre class="code-snippet">
+<span class="code-comment">// Aaron Garcia Sanchez</span>
+<span class="code-keyword">const</span> estudiante = {
+    nombre: <span class="code-string">"Aaron Garcia Sanchez"</span>,
+    especialidad: <span class="code-string">"Programación & Ciberseguridad"</span>,
+    tecnologias: [<span class="code-string">"HTML"</span>, <span class="code-string">"CSS"</span>, <span class="code-string">"JavaScript"</span>, <span class="code-string">"SQL"</span>],
+    ciberseguridad: {
+        master: <span class="code-string">"Especialización en Ciberseguridad"</span>,
+        skills: [<span class="code-string">"Bastionado Linux"</span>, <span class="code-string">"Bastionado Windows"</span>]
+    }
+};</pre>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span></span>
+        </div>
+    </section>
+
+    <!-- Sección Sobre mí -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">Sobre <span>mí</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Soy un estudiante de programación con conocimientos en desarrollo web
+                        (HTML, CSS, JavaScript) y bases de datos SQL.
+                    </p>
+                    <p class="about-description">
+                        Actualmente, estoy inmerso en un máster de especialización en Ciberseguridad,
+                        donde estoy profundizando en técnicas de bastionado tanto en Linux como Windows,
+                        aprendiendo a proteger sistemas y redes contra amenazas digitales.
+                    </p>
+                    <p class="about-description">
+                        Mi objetivo es fusionar el desarrollo de software con la seguridad,
+                        creando aplicaciones no solo funcionales sino también seguras desde su concepción.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">3+</span>
+                            <span class="stat-label">Años estudiando</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Proyectos completados</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">2</span>
+                            <span class="stat-label">Certificaciones</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="floating-card card-1">
+                            <i class="fas fa-code"></i>
+                            <span>Web Dev</span>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Cybersecurity</span>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="fas fa-database"></i>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Habilidades -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Mis <span>Habilidades</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Desarrollo Web</h3>
+                    <div class="skill-list">
+                        <div class="skill-item" data-skill="95">
+                            <span class="skill-name">HTML5</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-item" data-skill="90">
+                            <span class="skill-name">CSS3</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-item" data-skill="85">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Bases de Datos</h3>
+                    <div class="skill-list">
+                        <div class="skill-item" data-skill="80">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-shield-alt"></i> Ciberseguridad</h3>
+                    <div class="skill-list">
+                        <div class="skill-item" data-skill="75">
+                            <span class="skill-name">Bastionado Linux</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-item" data-skill="70">
+                            <span class="skill-name">Bastionado Windows</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Mis <span>Proyectos</span></h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="security">Seguridad</button>
+                <button class="filter-btn" data-filter="database">Base de Datos</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <h3>Portfolio Web</h3>
+                            <p>Sitio web personal responsive con diseño moderno</p>
+                            <div class="project-tech">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Web</h3>
+                        <p>Diseño y desarrollo de mi portfolio personal con animaciones CSS y JavaScript.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="security">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <h3>Bastionado Linux</h3>
+                            <p>Configuración de servidor seguro</p>
+                            <div class="project-tech">
+                                <span>Linux</span>
+                                <span>SSH</span>
+                                <span>Firewall</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Bastionado Linux</h3>
+                        <p>Implementación de medidas de seguridad en servidor Ubuntu con configuración de firewall y
+                            SSH.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Scripts</a>
+                            <a href="#" class="project-link"><i class="fas fa-file-alt"></i> Documentación</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="database">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <h3>Sistema de Gestión</h3>
+                            <p>Base de datos para empresa</p>
+                            <div class="project-tech">
+                                <span>SQL</span>
+                                <span>MySQL</span>
+                                <span>PHP</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Sistema de Gestión</h3>
+                        <p>Diseño e implementación de base de datos relacional para sistema de inventario.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
+                            <a href="#" class="project-link"><i class="fas fa-database"></i> Esquema</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <h3>App del Clima</h3>
+                            <p>Aplicación meteorológica</p>
+                            <div class="project-tech">
+                                <span>JavaScript</span>
+                                <span>API</span>
+                                <span>CSS</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>App del Clima</h3>
+                        <p>Aplicación web que consume API meteorológica con interfaz intuitiva.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link"><i class="fab fa-github"></i> Código</a>
+                            <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Demo</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="coming-soon">
+                <h3>Próximos Proyectos</h3>
+                <div class="coming-soon-grid">
+                    <div class="coming-soon-card">
+                        <i class="fas fa-user-secret"></i>
+                        <h4>Análisis de Logs</h4>
+                        <p>Herramienta para análisis de logs de seguridad</p>
+                    </div>
+                    <div class="coming-soon-card">
+                        <i class="fas fa-lock"></i>
+                        <h4>Password Manager</h4>
+                        <p>Gestor de contraseñas local</p>
+                    </div>
+                    <div class="coming-soon-card">
+                        <i class="fas fa-network-wired"></i>
+                        <h4>Network Monitor</h4>
+                        <p>Monitor de red básico</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contácta<span>me</span></h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>netdb@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Teléfono</h3>
+                            <p>+34 605 654 575</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Ubicación</h3>
+                            <p>Marbella, España</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Tu nombre" required>
+                    <input type="email" placeholder="Tu email" required>
+                    <textarea placeholder="Tu mensaje" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#"><span>A</span>aron.</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-codepen"></i></a>
+                </div>
+                <p class="footer-copy">&copy; 2023 Aaron Garcia Sanchez. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
